@@ -1,0 +1,24 @@
+.emailList {
+  flex: 1;
+  overflow: scroll;
+}
+.emailList__settings {
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  z-index: 999;
+  padding-right: 10px;
+  /* min-width: 100%; */
+  /* i will added */
+}
+.email__section {
+  display: flex;
+}
+.emailRow__description {
+  font-weight: 400;
+  color: gray;
+  padding-left: 2px;
+}
